@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jura&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="date-info">
+            <h1>Today</h1>
+            <h1 class="date"></h1>
+        </div>
+        <form class="add" action="#">
+            <input id="textinput" type="text" placeholder="e.g. Buy grocories" />
+            <input id="submittext" type="submit" value="ADD Task" />
+        </form>
+    </header>
+    <main class="container">
+        <ul class="selectors">
+            <li class="1" id="remaining">
+                <span class="select" id="remaining">Remaining</span>
+                <span class="count" id="remaining"></span>
+            </li>
+            <li class="2" id="completed">
+                <span class="select" id="completed">Completed</span>
+                <span class="count" id="completed"></span>
+            </li>
+            <li class="3 selected" id="total">
+                <span class="select" id="total">Total</span>
+                <span class="count" id="total"></span>
+            </li>
+        </ul>
+        <ul class="list">
+
+        </ul>
+    </main>
+    <footer>
+        <p>Style & Code by Ahmed Elhady</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
